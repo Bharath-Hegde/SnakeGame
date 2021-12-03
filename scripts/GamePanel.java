@@ -118,7 +118,7 @@ public class GamePanel extends JPanel implements ActionListener {
 		if (playerNumberStart != 1) {
 			setLabelParameters(scoreHeadingLabel, "LENGTHS: ", Color.BLACK, 19);
 		} else {
-			setLabelParameters(scoreHeadingLabel, "FRUITS EATEN: ", Color.BLACK, 19);
+			setLabelParameters(scoreHeadingLabel, "SCORE: ", Color.BLACK, 19);
 		}
 
 		// loop through all snakes
